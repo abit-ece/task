@@ -1,0 +1,50 @@
+.container{
+    width: auto;
+    height: 550px;
+    background-color: aquamarine;
+}
+header, footer{
+    height: 100px;
+    background-color: pink;
+    font-size: 50px;
+    text-align: center;
+}
+
+nav ul li{
+
+    display: inline-block;
+}
+nav{
+
+    text-align: center;
+    /* height: 50px; */
+}
+ul li{
+ width: 100px;
+ background-color: blue;
+ color: aliceblue;
+ margin: 0 50px;
+ border-radius: 10px;
+
+}
+
+li:hover{
+    background-color: pink;
+}
+.box{
+height: 300px;
+display: flex;
+justify-content: space-evenly;
+}
+#box1{
+    width: 300px;
+    background-color: cornflowerblue;
+}
+#box2{
+    width: 300px;
+    background-color: cornflowerblue;
+}
+#box3{
+    width: 300px;
+    background-color: cornflowerblue;
+}
